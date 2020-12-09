@@ -1,0 +1,220 @@
+body:before {
+  display: block; content:""; position: absolute; z-index:-1;
+  top:0; left: 0; right: 0; height: 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url(Social_Network_Analysis_Visualization.png);
+  opacity: 0.1;
+}
+
+.navbar-custom {
+  background:transparent;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #355953;
+  font-size: 36px;
+}
+
+.navbar-custom .nav-item:hover {
+  background-color: #c8dbd8;
+  color: black;
+}
+
+.navbar-custom .nav-item.active .nav-link {
+  color: #009c85;
+}
+
+nav{
+   width: 100%;
+}
+
+ul:nth-of-type(1){
+    display: table;
+    width: 100%;
+ }
+ul:nth-of-type(1) li.nav-item{
+     display: table-cell;
+     width: 25%;
+     text-align: center;
+}
+
+
+ul {
+  list-style-position: inside;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.container {
+  color: #355953;
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+}
+
+.col {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.container2 {
+  padding-left: 50px;
+  padding-right: 800px;
+  color: #355953;
+  font-family: 'Mukta', sans-serif;
+}
+
+@media screen and (max-width: 1100px){
+    .container2{
+        padding-right:10%;
+    }
+}
+
+#photo {
+  max-width: 20%;
+  height:auto;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+#name {
+  font-size: 60px;
+}
+#profession {
+  font-size: 26px;
+}
+#work {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.pictogram {
+  width: 40px;
+  height: 40px;
+}
+
+#introductiontext {
+  font-size: 20px;
+}
+
+#skilltitle {
+  font-size: 30px;
+  color: #004696;
+}
+
+#skillsubtitle {
+  font-size: 26px;
+  color: #004696;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 150px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #c8dbd8;
+  color: #355953;
+  font-size: 24px;
+  padding: 3px;
+}
+
+#toronto {
+  width: 60%;
+  height: 60%;
+}
+
+#covid {
+  width: 60%;
+  height: 60%;
+}
+
+#django {
+  width: 100%;
+  height: auto;
+}
+
+#guitracker {
+  width: 60%;
+  height: 60%;
+}
+
+#guiquality {
+  width: 60%;
+  height: 60%;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #355953;
+  color: white;
+  transform: rotateY(180deg);
+  font-size: 14px;
+  padding: 3px;
+}
+
+.fliplink:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.fliplink:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.fliplink:hover {
+  color: #009c85;
+}
+
+#contributions {
+  color: #004696;
+}
+
+.contributionlist:link {
+  color: #355953;
+  font-size: 20px;
+  text-align: center;
+  list-style: inside;
+}
+.contributionlist:visited {
+  color: #355953;
+  background-color: transparent;
+  text-decoration: none;
+}
+.contributionlist:hover {
+  color: #009c85;
+}

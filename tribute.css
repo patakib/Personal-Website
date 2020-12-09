@@ -1,0 +1,57 @@
+html {
+  font-size: 22px;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  background-color: #e5e5e5;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+#subtitle {
+  font-size: 2rem;
+}
+
+#image {
+  max-width: 40%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 100px auto 30px auto;
+}
+
+ul {
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+}
+
+li {
+  margin-top: 15px;
+}
+
+#image2 {
+  max-width: 40%;
+  border-radius: 20px;
+}
+
+#tribute-link {
+  font-size: 2rem;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}
+
+#tribute-link:visited {
+  color: black;
+}
